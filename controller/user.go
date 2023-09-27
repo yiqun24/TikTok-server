@@ -1,9 +1,12 @@
 package controller
 
 import (
-	"github.com/gin-gonic/gin"
 	"net/http"
 	"sync/atomic"
+
+	"github.com/gin-gonic/gin"
+
+	_ "github.com/yiqun24/TikTok-server/models"
 )
 
 // usersLoginInfo use map to store user info, and key is username+password for demo

@@ -21,3 +21,6 @@
 go.work
 
 .idea
+.DS_Store
+.air.toml
+tmp
